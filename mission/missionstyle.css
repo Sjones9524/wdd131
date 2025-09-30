@@ -1,5 +1,5 @@
 html {
-    border: 1px solid grey;
+    
     box-sizing: border-box;
     margin: 50px 500px 50px 500px;
     padding: 10px;
@@ -21,9 +21,12 @@ body.dark header.title h2 {
     color: #4F9ACF;
 }
 .content {
+    border: 1px solid grey;
     max-width: 800px;
     width: 100%;
     text-align: left;
+    margin: 2em;
+    padding: 4em;
 }
 header.title {
     text-align: center;
