@@ -19,11 +19,14 @@ h2 {
     margin: 0 10px;
 }
 a {
-    color: #AF1B3F;
+    color: #473144;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+    background-color: #efc69b;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 p {
     margin: 5px 0;
