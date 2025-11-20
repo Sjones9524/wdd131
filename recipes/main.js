@@ -1,7 +1,7 @@
 import recipes from './recipes.mjs';
 
 const recipeSection = document.getElementById('recipe-section');
-const searchForm = document.getElementById('search-form');
+const searchForm = document.querySelector('.search form');
 const searchInput = document.getElementById('recipe-search');
 
 function getRandomNumber(num) {
