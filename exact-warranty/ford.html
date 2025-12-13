@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automotive Warranty Processing Company">
+    <meta name="author" content="Spencer Jones">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Automotive Warranty">
+    <meta property="og:description" content="Obtain information about an Automotive warranty processing company.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="EW Warranty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EW Warranty">
+    <meta name="twitter:description" content="Obtain information about an Automotive warranty processing company.">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    <link rel="stylesheet" href="EW.css"/>
+    <link rel="icon" href="images/EW.png" type="image/png">
+    <script type="module" src="ew.js" defer></script>
+    <title>Exact Warranty</title>
+</head>
+<body>
+  <header class="grid-header">
+    <div class="grid-logo">
+      <img src="images/ewlogo.png" alt="Site Logo">
+    </div>
+
+    <nav class="grid-nav">
+      <ul class="grid-nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <section class="Ford">
+        <img src="images/ford-logo3.png" alt="Ford logo" class="ford-logo">
+        <p>I have been working as a Ford warranty administrator for over 7 years. During that time I have been able to understand how to quickly and effectively input and submit work orders
+            for payment. I have been able to work with OWS, various different DMS's, and SLTS to obtain all of the needed labor ops for the repair. I have extensive experience with transit
+            damage claims as well. I am diligent in looking at claims to get them paid quickly. I have increased multiple stores DAS scores from the low 30's into the 90's. I brought the company from
+            "red" to "blue".
+        </p>
+        <p>If you are interested in my services please take the time to fill out the form below to obtain a quick quote on pricing. Thank you!
+        </p>
+    </section>
+</main>
+    <section class="contact-form-section">
+        <form id="dealerForm" class="contact-form">
+            <input type="text" name="company" required placeholder="Company Name">
+            <input type="text" name="contactName" required placeholder="Contact Name">
+            <input type="text" name="dms" required placeholder="Dealer Management System">
+            <input type="text" name="brand" required placeholder="Brand">
+            <input type="number" name="claimsPerWeek" min="0" required placeholder="Average Claims per Week">
+            <input type="tel" name="contactNumber" required placeholder="Contact Number">
+            <button type="submit" id="submitBtn">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+<footer>
+        <div class="social">
+            <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+            <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
+        <p>©2025</p>
+    </footer>
+</body>
+</html>
